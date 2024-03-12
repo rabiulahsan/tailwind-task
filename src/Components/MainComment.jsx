@@ -1,25 +1,48 @@
+import { FaReply } from "react-icons/fa";
+
 const MainComment = () => {
   return (
-    <div className="bg-[#ffffff] p-4 flex  items-center gap-x-4">
-      <div className="flex flex-col">
-        <p>+</p>
-        <p>12</p>
-        <p>-</p>
+    <div className="bg-[#ffffff] p-4 flex  items-center gap-x-4 w-[560px] rounded-md">
+      {/* comment number  */}
+      <div className="flex flex-col font-bold  items-center bg-[#e8ebfa] px-2 rounded-lg ">
+        <p className="text-gray-400  text-lg">+</p>
+        <p className=" text-[#46498b] text-sm">12</p>
+        <p className="text-gray-400  text-lg">-</p>
       </div>
-      <div className=" flex flex-col">
+
+      {/* left section  */}
+      <div className=" flex flex-col gap-y-[10px]">
         <div className=" flex justify-between items-center">
-          <div className="">
+          {/* name with image  */}
+          <div className=" flex justify-start  items-center gap-x-3">
             <img
-              className="h-[30px] w-[30px] rounded-[50%] object-cover"
+              className="h-[26px] w-[26px] rounded-[50%] object-cover"
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
             />
-            <p>name</p>
-            <p>Time</p>
+            <p className="text-sm text-[#393b41] font-semibold">Daniel James</p>
+            <p className="text-sm text-[#777779] font-semibold">1 month ago</p>
           </div>
-          <div className="">Reply</div>
+
+          {/* reply button  */}
+          <div className="">
+            <p className="flex items-center gap-x-2 text-[#595eb7]">
+              <span className="text-xs">
+                <FaReply></FaReply>
+              </span>
+              <span className="text-sm font-bold">Reply</span>
+            </p>
+          </div>
         </div>
-        <div className=""></div>
+
+        {/* comment  */}
+        <div className="">
+          <p className="text-sm text-[#898c90] font-semibold">
+            Impressibe! Though it seems the drag feature could be improved. But
+            overall it looks incredible. You&apos;ve nailed the design and the
+            responsiveness at various breakpoints works really well.
+          </p>
+        </div>
       </div>
     </div>
   );
