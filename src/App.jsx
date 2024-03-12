@@ -3,6 +3,7 @@ import MainComment from "./Components/MainComment";
 import ReplyComment from "./Components/ReplyComment";
 
 const App = () => {
+  // create object for content
   const commentor1 = {
     time: "1 month ago",
     name: "amyrobson",
