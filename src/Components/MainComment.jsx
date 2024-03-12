@@ -20,17 +20,19 @@ const MainComment = () => {
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
             />
-            <p className="text-sm text-[#393b41] font-semibold">Daniel James</p>
+            <p className="text-sm text-[#393b41] font-semibold cursor-pointer hover:underline">
+              Daniel James
+            </p>
             <p className="text-sm text-[#777779] font-semibold">1 month ago</p>
           </div>
 
           {/* reply button  */}
           <div className="">
-            <p className="flex items-center gap-x-2 text-[#595eb7]">
+            <p className="flex items-center gap-x-2 text-[#414698] cursor-pointer">
               <span className="text-xs">
                 <FaReply></FaReply>
               </span>
-              <span className="text-sm font-bold">Reply</span>
+              <span className="text-sm font-semibold">Reply</span>
             </p>
           </div>
         </div>
