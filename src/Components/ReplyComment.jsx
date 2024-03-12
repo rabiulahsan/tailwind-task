@@ -2,7 +2,7 @@ import { FaReply } from "react-icons/fa";
 
 const ReplyComment = () => {
   return (
-    <div className="bg-[#ffffff] p-4 flex  items-center gap-x-4 w-[560px] rounded-md">
+    <div className="bg-[#ffffff] p-4 flex  justify-end  items-center gap-x-4 w-[496px] rounded-md">
       {/* comment number  */}
       <div className="flex flex-col font-bold  items-center bg-[#e8ebfa] px-2 rounded-lg ">
         <p className="text-gray-400  text-lg">+</p>
