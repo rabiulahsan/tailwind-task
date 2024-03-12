@@ -1,5 +1,6 @@
 import CommentBox from "./Components/CommentBox";
 import MainComment from "./Components/MainComment";
+import ReplyComment from "./Components/ReplyComment";
 
 const App = () => {
   return (
@@ -7,6 +8,8 @@ const App = () => {
       <div className=" flex flex-col gap-y-4">
         <MainComment></MainComment>
         <MainComment></MainComment>
+        <ReplyComment></ReplyComment>
+        <ReplyComment></ReplyComment>
         <CommentBox></CommentBox>
       </div>
     </div>
