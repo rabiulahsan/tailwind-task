@@ -1,7 +1,11 @@
+import MainComment from "./Components/MainComment";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-lg text-sky-400">Hello World</h1>
+    <div className="bg-[#f5f6fa] h-screen flex justify-center items-center">
+      <div className="border border-red-500"></div>
+
+      <MainComment></MainComment>
     </div>
   );
 };
