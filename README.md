@@ -6,4 +6,4 @@ Here is the code of  a task, where I use following technologies for building thi
   
 ---
   Here you can find the live preview of the task
-  # [Tailwind Task](https://comment-tailwind.netlify.app)
+  __[Tailwind Task](https://comment-tailwind.netlify.app)__
